@@ -1,4 +1,4 @@
-var staticCacheName = 'page-static-v1';
+var staticCacheName = 'page-static-v5';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
