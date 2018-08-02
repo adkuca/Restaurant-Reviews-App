@@ -93,6 +93,21 @@ nav h1 a {
 	letter-spacing: 10px;
 	text-transform: uppercase;
 }
+
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #bf1722;
+	color: white;
+	padding: 8px;
+	z-index: 100;
+  }
+  
+  .skip-link:focus {
+	top: 0;
+  }
+
 #breadcrumb {
 	padding: 10px 40px 16px;
 	list-style: none;

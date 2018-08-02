@@ -1,10 +1,20 @@
-var staticCacheName = 'page-static-v5';
+var staticCacheName = 'page-static-v2';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
 		'/',
+		'/restaurant.html?id=1',
+		'/restaurant.html?id=2',
+		'/restaurant.html?id=3',
+		'/restaurant.html?id=4',
+		'/restaurant.html?id=5',
+		'/restaurant.html?id=6',
+		'/restaurant.html?id=7',
+		'/restaurant.html?id=8',
+		'/restaurant.html?id=9',
+		'/restaurant.html?id=10',
 		'img/1.jpg',
 		'img/2.jpg',
 		'img/3.jpg',
