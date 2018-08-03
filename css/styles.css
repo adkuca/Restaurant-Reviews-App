@@ -114,7 +114,15 @@ nav h1 a {
 	background-color: #eee;
 	font-size: 17px;
 	margin: 0;
+	height: auto;
 	width: 50%;
+	line-height: 1.5;
+}
+
+#breadcrumb ul {
+	margin: 0;
+	padding: 0;
+	line-height: 2.5;
 }
 
 /* Display list items side by side */
